@@ -9,7 +9,7 @@ import TryPureScript (h1, h2, p, text, list, indent, link, render, code)
 main :: Effect Unit
 main =
   render $ fold
-    [ h1 (text "Try PureScript!")
+    [ h1 (text "Change PureScript!")
     , p (text "Try out the examples below, or create your own!")
     , h2 (text "Examples")
     , list (map fromExample examples)
